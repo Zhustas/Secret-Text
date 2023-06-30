@@ -21,7 +21,7 @@ void MIXX(); // In one row (how many) elements
 void RANDOM_MIXX(); // In one row (max number of) elements
 void ADD_SYMBOLS(); // Adds symbols between each character
 
-int main() // -1 = delete text; 99 = mix; 100 = random mix;
+int main()
 {
     int error;
     string choice;
