@@ -1,9 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <cstdlib>
-#include <ctime>
-#include <limits>
+#include <ctime> // For srand(time(0))
+#include <limits> // For cin.ignore(numeric_limits<streamsize>::max(), '\n')
 
 using namespace std;
 
